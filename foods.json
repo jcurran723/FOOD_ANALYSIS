@@ -1,0 +1,93 @@
+{
+    "note": "This file contains the foods and the data to mine",
+    "foods":[
+        {
+            "name": "Peanut Butter",
+            "search_text": "Peanut Butter"
+        },
+        {
+            "name": "Cottage Cheese",
+            "search_text": "Cottage Cheese"
+        },
+        {
+            "name": "Cheddar Cheese",
+            "search_text": "Cheddar Cheese"
+        },
+        {
+            "name": "Scrambled Eggs",
+            "search_text": "Egg omelet or scrambled egg, made with butter"
+        },
+        {
+            "name": "Dove Dark Chocolates",
+            "search_text": "DARK CHOCOLATE SILKY SMOOTH PROMISES"
+        },
+        {
+            "name": "NY Strip Steak",
+            "search_text": "beef NY strip steak grilled"
+        },
+        {
+            "name": "Chicken Breast",
+            "search_text": "chicken breast grilled without sauce"
+        },
+        {
+            "name": "Almonds",
+            "search_text": "Almonds"
+        },
+        {
+            "name": "Cashews",
+            "search_text": "Cashews"
+        },
+        {
+            "name": "Ground beef",
+            "search_text": "USDA grade A ground beef"
+        },
+        {
+            "name": "Cantaloupe",
+            "search_text": "Cantaloupe, raw"
+        },
+        {
+            "name": "French toast",
+            "search_text": "French toast prepared"
+        },
+        {
+            "name": "3 MUSKETEERS Bar",
+            "search_text": "3 MUSKETEERS Bar"
+        },
+        {
+            "name": "Raisin Bran",
+            "search_text": "Raisin Bran"
+        },
+        {
+            "name": "Apple",
+            "search_text": "Gala Apple"
+        },
+        {
+            "name": "Spaghetti",
+            "search_text": "spaghetti"
+        },
+        {
+            "name": "Milk",
+            "search_text": "Milk"
+        },
+        {
+            "name": "Popcorn",
+            "search_text": "popcorn"
+        },
+        {
+            "name": "Pepperoni",
+            "search_text": "pepperoni"
+        },
+        {
+            "name": "Cucumber",
+            "search_text": "Cucumber,raw"
+        },
+        {
+            "name": "Black Olives",
+            "search_text": "black olives,raw"
+        },
+        {
+            "name": "Spinach",
+            "search_text": "Spinach,raw"
+        }
+    ]
+}

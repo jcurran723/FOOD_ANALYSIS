@@ -1,0 +1,60 @@
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="BlackOlives.js"></script>
+<script type="text/javascript">
+
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawAxisTickColors);
+
+function drawAxisTickColors() {
+      var Name = myData[0];
+      var Protein = myData[1];
+      var Fat = myData[2];
+      var Carbs = myData[3];
+      var Sugars = myData[4];
+      var Fiber = myData[5];
+      var NetCarbs = myData[6];
+      console.log(Name, Fat, Protein, Fiber, Sugars, Carbs, NetCarbs);
+
+      var data = google.visualization.arrayToDataTable([
+        ['Food', 'Protein', 'Fat', 'Carbs', 'Sugars', 'Fiber', 'Net Carbs'],
+        [Name, Protein, Fat, Carbs, Sugars, Fiber, NetCarbs],
+      ]);
+
+      var options = {
+        title: 'Nutritional Information',
+        height: 300,
+        chartArea: {width: '75%'},
+        hAxis: {
+          title: 'Nutrients per 100 Grams',
+          minValue: 0,
+          textStyle: {
+            bold: true,
+            fontSize: 18,
+            color: '#4d4d4d'
+          },
+          titleTextStyle: {
+            bold: true,
+            fontSize: 18,
+            color: '#4d4d4d'
+          }
+        },
+        vAxis: {
+          title: 'Food',
+          textStyle: {
+            fontSize: 18,
+            bold: true,
+            color: '#848484'
+          },
+          titleTextStyle: {
+            fontSize: 24,
+            bold: true,
+            color: '#848484'
+          }
+        }
+      };
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+</script>
+
+<div id="chart_div"></div>
